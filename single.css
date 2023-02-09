@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.hero-image 
+{
+  text-align: center;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+div.home-text 
+{
+  float: left;
+  background-color: #ca3438;
+  color: white;
+  text-align: center;
+  width: 40%;
+  font-size: 50px;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.home-img 
+{
+	text-align: center;
+	margin-left: 50%;
+	font-size: 50px;
+	padding: 40px 30px 40px 50px;	
+    margin: 20px;
+}
+
+html,body
+{
+	background-color: #ca3438;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+	margin: 0;
+	padding:0;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+ul.nav a 
+{
+	text-decoration: none;
+	color: white;
+	font-size: 24px
+}
+
+ul.nav a:hover 
+{
+	border-bottom: 3px solid white;
+}
+
+ul.nav 
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.nav li 
+{
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+button a 
+{
+	text-decoration: none;
+}
+
+footer 
+{
+	padding: 1px;
+	text-align: center;
+	background-image: url("marble.jpeg");
+	color: red;
+	
+}
+
+button 
+{
+  background-color: white;
+  border: none;
+  color: #ca3438;
+  padding: 10px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
+}
+
+body.form-body, body.success-images 
+{
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	ul.nav li {padding: 0px 2px;}
+}
+
+/*</style>*/
